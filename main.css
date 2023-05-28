@@ -1,0 +1,174 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo {
+    width: 40px;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+
+.sobre {
+    margin-left: 2rem;
+}
+
+#funcionamento li{
+    list-style: none;
+}
+
+#title-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #4191e1;
+}
+
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #4191e1;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Bebas Neue', sans-serif;
+} 
+
+#banesfacil,
+#servicos{
+    background-color: #a0d9e7;
+}
+
+.text-colored {
+    color: #4191e1;
+}
+
+.nav-servicos .nav-link.active,
+#fale-conosco button {
+    background-color: #4191e1;
+    color: #fff;
+}
+
+.nav-servicos .nav-link:hover{
+    color: #4191e1;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#slide1 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background: black url('images/slides/baner-banestes-solidario.jpg') center center no-repeat ;
+}
+
+#slide2 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background: black url('images/slides/slide-sul-de-prêmio.jpg') center center no-repeat ;
+}
+
+#slide3 {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background: black url('images/slides/slider-capixaba-cap.jpg') center center no-repeat ;
+}
+
+.bi-calendar2-check,
+.bi-wallet,
+.bi-file-x {
+    text-align: center;
+    font-size: 19rem;
+}
+
+.bi-file-earmark-binary,
+.bi-file-earmark-check,
+.bi-file-earmark-break,
+.bi-file-earmark-text {
+    text-align: center;
+    font-size: 8rem;
+}
+
+.avisos>h6 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.avisos {
+    padding: 8px;
+    background-color: rgb(255, 72, 72);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 56px;
+}
+
+label.error {
+    margin-top: 5px;
+    color: #c10a0a;
+    word-break: break-all;
+}
+
+@media (max-width: 767px) {
+    .icone-avisos{
+        text-align: center;
+    }
+
+    #recebimentos {
+        text-align: center;
+    }
+
+    .icones-mt {
+        margin-top: 26px;
+    }
+
+    .bi-file-earmark-binary,
+    .bi-file-earmark-check,
+    .bi-file-earmark-break,
+    .bi-file-earmark-text {
+        text-align: center;
+        font-size: 10rem;
+    }
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .bi-calendar2-check,
+    .bi-wallet,
+    .bi-file-x {    
+        text-align: center;
+        font-size: 10rem;
+    }
+
+    .menu-servicos{
+        margin-left: -26px;
+    }
+
+    #fale-conosco {
+        height: 70vh;
+    }
+}
